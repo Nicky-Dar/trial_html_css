@@ -1,0 +1,199 @@
+@media all and (max-width: 1000px) {
+  /* css header */
+  .header-right{
+    display:none;
+  }
+  
+  .header-menu-icon{
+    display:block;
+    margin-right: 15px;
+  }
+
+  .header-left {
+    margin-left: 15px;
+  }
+  
+  .header-logo {
+    width: 110px;
+    margin-top: 23px;
+  }
+  
+  .header-avenger{
+    font-size:40px ;
+    height: 65px;
+    line-height: 65px;
+  }
+
+
+  /* css main */
+  .main-container{
+    width: 100%;
+  }
+  .main{
+    padding-left: 40px;
+    background-position: 0px 0px;
+  }
+  .main h1{
+    font-size: 30px; 
+  }
+  .main p{
+    font-size: 15px;
+  }
+  .main-text{
+    width: 400px;
+  }
+  
+  .main-kotak {
+    height: 350px;
+  }
+
+  /* css body atas */
+  .film-heading{
+    text-align: center;
+  }
+
+  .film-wrapper {
+      /* it place the items in vertical direction */
+    flex-direction: column;
+  }
+  .column-1 iframe{
+    width: 600px;
+    height: 360px;
+  }
+
+  .film {
+    padding-top: 20px;
+  }
+
+  .film img {
+    max-width: 80px;
+  }
+  
+  .film-des h3{  
+    margin-top: 0px;
+  }
+
+  /* css body bawah */
+  .hero {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  
+  .hero-heading h2 {
+    font-size: 20px;
+  }
+
+  /* css footer */
+  footer img {
+    width: 50px;
+  }
+
+  footer p {
+    font-size: 42px;
+  }
+  .footer-container{
+    width: 50%;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  /* css header */
+  .header-left {
+    width:85%;
+    text-align: left;
+    margin-left: 10px;
+  }
+  
+  .header-logo {
+    width: 90px;
+    margin-top: 30px;
+  }
+  
+  .header-right{
+    display:none;
+  }
+  
+  .header-menu-icon{
+    display:block;
+    margin-right: 10px;
+  }
+
+  .header-avenger{
+    font-size: 23px;
+    height: 30px;
+    line-height: 30px;
+  }
+
+  /* css main */
+  .main-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 150px 0 50px 50px;
+  }
+  
+  .main{
+    padding-left: 0px;
+    background-position: -200px 0;
+    height: 540px;
+  }
+  
+  .main-kotak{
+    height: 340px;
+    width:100%;
+  }
+
+  .main-text p {
+    width: 70%;
+    font-size: 14px;
+  }
+
+  /* css body atas */
+  .film-heading{
+    text-align: center;
+  }
+
+  .film-wrapper {
+    flex-direction: column;
+  }
+
+  .column-1 iframe{
+    width: 320px;
+    height: 200px;
+  }
+
+  .film img {
+    max-width: 80px;
+  }
+
+  .films h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .films p{
+    margin-top: 6px;
+  }
+
+  .film-des h3{  
+    margin-top: 0px;
+  }
+
+  /* css body bawah */
+  .hero {
+    width: 100%;
+  }
+
+  /* css footer */
+  footer img {
+    width: 40px;
+  }
+
+  footer p {
+    font-size: 28px;
+  }
+  .footer-container{
+    width: 45%;
+  }
+}
+
